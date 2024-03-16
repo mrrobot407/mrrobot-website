@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+
+
+
+   
+   .grid-cast {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px; /* Optional: adds some space between the images */
+   }
+   
+   .Image-div {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%; /* Ensures the div fits its content */
+    height: 300px; /* Adjust based on your image size */
+    overflow: hidden; /* Ensures the image doesn't overflow the div */
+   
+   }
+   
+   .Image-div img {
+    width: 100%; /* Makes the image responsive */
+    height: auto; /* Keeps the aspect ratio */
+    aspect-ratio: 3/4;
+    width: 100%; /* Makes the image responsive */
+    height: auto; /* Keeps the aspect ratio */
+    aspect-ratio: 3 / 4; /* Specifies the aspect ratio */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    transition: transform 0.3s ease; /* Smooth transition for the animation */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  
+   }
+
+
+   /* 
+    */
+    .name-container {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        font-family: 'Playfair Display';
+        right: 0;
+       
+        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+        opacity: 0; /* Hide by default */
+        transition: opacity 0.3s ease; /* Smooth transition for the animation */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .Image-div:hover .name-container {
+        opacity: 1; /* Show on hover */
+    }
+    
+    .name {
+        color: white; /* Text color */
+        font-size: 24px; /* Adjust as needed */
+        margin: 0; /* Remove default margin */
+    }
+
+    .colour-1 {
+        background: #289dd3;
+    }
+    
+    .colour-2 {
+        background: #f06292; /* Pink */
+    }
+    
+    .colour-3 {
+        background: #68db98; /* Green */
+    }
+    
+    .colour-4 {
+        background: #dbba36; /* Yellow */
+    }
+    
+    .colour-5 {
+        background: #4894d3; /* Blue */
+    }
+    
+    .colour-6 {
+        background: #e53e3e; /* Red */
+    }
+    .cast-sction{
+        --s: 80px; /* control the size */
+        --c: #542437;
+        
+        --_g: 
+          #0000 calc(-650%/13) calc(50%/13),var(--c) 0 calc(100%/13),
+          #0000 0 calc(150%/13),var(--c) 0 calc(200%/13),
+          #0000 0 calc(250%/13),var(--c) 0 calc(300%/13);
+        --_g0: repeating-linear-gradient( 45deg,var(--_g));
+        --_g1: repeating-linear-gradient(-45deg,var(--_g));
+        background:
+          var(--_g0),var(--_g0) var(--s) var(--s),
+          var(--_g1),var(--_g1) var(--s) var(--s) #C02942;
+        background-size: calc(2*var(--s)) calc(2*var(--s));
+    }
+    .cast-head{
+     color: rgb(240, 234, 227);
+     font-family: 'Playfair Display';
+    font-size: 3em;
+    text-align: center;
+    font-weight: 800;
+    }
+    .maincontainercast{
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+    @media (max-width: 768px){
+        .Image-div {
+          
+            width: 100%; /* Ensures the div fits its content */
+            height: auto; /* Adjust based on your image size */
+           
+           
+           }
+    }
+    .show-more{
+        font-family: 'Playfair Display';
+        font-size: 20px;
+        color: #47030f;
+        font-weight: 600;
+    }
+    .btn {
+        outline: none;
+        border: none;
+    }

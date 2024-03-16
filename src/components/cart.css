@@ -1,0 +1,119 @@
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center-align cart boxes */
+  gap: 20px;
+  padding: 20px;
+}
+.cart-colour{
+    background-color: #F2EAD3;
+}
+
+.cart-box {
+  display: flex;
+  flex-direction: row; /* Display items as cards on mobile */
+  width: 100%; /* Ensure cart boxes take full width */
+  max-width: 500px; /* Set maximum width for cart boxes */
+  gap: 20px;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  background-color: #DFD7BF;
+}
+
+.cart-image {
+  max-width: 200px;
+  height: auto;
+  mix-blend-mode: multiply;
+
+}
+
+.cart-info {
+  flex-grow: 1;
+  text-align: center;
+color: #faf6f5;
+font-weight: 500;
+text-transform: capitalize;
+background-color: #ff4444;
+
+}
+
+.cart-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.cart-button-1, .remove-button-1 {
+  padding: 5px 10px;
+  border: none;
+  background-color: #e62200;
+  color: #fff6f6;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.remove-button-1 {
+  background-color: #ff4444;
+  color: #ddd;
+}
+
+.cart-total {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Ensure cart total takes full width */
+  margin-top: 20px;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  background-color: #B12704;
+  width: inherit;
+  color: #ddd;
+  text-transform: capitalize;
+}
+
+.total-label {
+  font-weight: bold;
+ 
+}
+
+.total-price {
+  font-weight: bold;
+  width: inherit;
+  color: #d6c804;
+  text-transform: capitalize;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .cart-container {
+    align-items: stretch;
+  }
+  
+  .cart-box {
+    align-items: center;
+  }
+  .cart-box {
+    display: flex;
+    flex-direction: column; }
+}
+.cart-product-price-d{
+    text-decoration: line-through;
+}
+/* Move cart buttons to the right on larger screens */
+@media (min-width: 769px) {
+  .cart-buttons {
+    margin-left: auto;
+  }
+  
+
+}
+.paynow-nigga{
+    padding: 5px 30px;
+    font-size: 25px;
+border: none;
+background-color: #f5e61d;
+border-radius: 10px;
+}

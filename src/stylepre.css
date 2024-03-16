@@ -1,0 +1,76 @@
+.preloader-main{
+    position: relative;
+  height: 100vh;
+  background-color: 
+#252525;
+
+  }
+  
+  .loading-text {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'roboto';
+    text-transform: capitalize;
+    color: #fbeee0;
+    /* text-align: center; */
+  }
+  
+  .skip-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  
+    
+  }
+
+
+
+
+  @media (max-width: 768px){
+    .loading-text {
+  
+      font-size: 18px;
+    
+    }
+  }
+
+
+
+  .skip-button {
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 2px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    }
+    
+    .skip-button:hover {
+    background-color: #fff;
+    }
+    
+    .skip-button:active {
+    box-shadow: #422800 2px 2px 0 0;
+  
+    }
+    
+    @media (min-width: 768px) {
+    .skip-button {
+    min-width: 120px;
+    padding: 0 25px;
+    }
+    }

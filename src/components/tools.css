@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap');
+
+
+.bgimgae-hacking{
+    
+      
+        background-image:  url("../assets/kali-linux-linux-texture-dragon-abstract-hd-wallpaper-preview.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+     
+     height: 100vh;
+        background-blend-mode: lighten;
+    
+    
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+      
+        height:  auto;
+      
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        
+  
+}
+.mainoutshell{
+   
+}
+
+
+.terminalborder{
+    margin: 50px 0;
+height: auto;
+width: 80%;
+border: 2px solid rgba(67, 67, 231, 0.836);
+background-color: rgba(14, 22, 48, 0.5);
+/* margin: 100px; */
+/* opacity: 0.9; */
+backdrop-filter: blur(2px);
+
+}
+.topnavbaricon{
+    border: none;
+    outline: none;
+    gap: 10px;
+    background-color: transparent;
+    color:#D9DCD4
+   
+}
+
+.navbarcolour-terminal{
+    /* background-color: #0E1630; */
+  
+    background-color: rgba(14, 22, 48, 0.1);
+    /* margin: 100px; */
+    /* opacity: 0.9; */
+    backdrop-filter: blur(10px);
+}
+.main-h1-terminal{
+    font-family: "Fira Code";
+    font-size: 1rem;
+    color: #D9DCD4;
+    text-transform: capitalize
+}
+
+.t-user{
+    color: red;
+    font: 300;
+    font-size: 1rem;
+}
+.t-arrow{
+    color: blue;
+    font-weight: 700;
+}
+.h4-tools
+{
+    font-family: "Fira Code";
+    color: #D9DCD4;
+    font-size: 1rem;
+
+}
+.p-terminal{
+    font-family: "Fira Code";
+    color: #D9DCD4;
+    font-size: 1rem;
+font-weight: 500;
+}
+.input-from{
+    background: transparent;
+    border: none;
+    font-family: "Fira Code";
+    color: #D9DCD4;
+    font-size: 1rem;
+font-weight: 500;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+.output-pree{
+
+    font-family: "Fira Code";
+    color: #D9DCD4;
+    font-size: 1rem;
+font-weight: 500;
+
+}

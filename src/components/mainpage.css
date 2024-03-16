@@ -1,0 +1,70 @@
+
+
+.mainclass-1{
+    background-color: #030637;
+
+   
+ 
+ /* height: 100vh; */
+   
+
+  
+
+    background-attachment: fixed;
+   
+  
+   
+
+   
+    
+}
+.bg-img-1{
+    background-image:  url("../assets/mrobot.png")  ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background-size:auto; */
+    filter: drop-shadow(50px 0px 100px #b81919bb);
+     height: 100vh;
+     
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* .mainclass-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: inherit;
+    filter: drop-shadow(50px 0px 100px #b81919bb);
+    z-index: -1;
+   } */
+
+
+.h1-main{
+color: rgba(255, 255, 255, 0.973);
+}
+.image-section1{
+    width: 350px;
+    
+    
+
+}
+
+.text-center-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    flex-direction: column;
+   overflow: hidden;
+   margin-top: 10px;
+}
